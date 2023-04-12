@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Accounting"
+    },
+    {
+        "id": 2,
+        "name": "Business Development"
+    },
+    {
+        "id": 3,
+        "name": "Engineering"
+    },
+    {
+        "id": 4,
+        "name": "Human Resources"
+    },
+    {
+        "id": 5,
+        "name": "Legal"
+    },
+    {
+        "id": 6,
+        "name": "Marketing"
+    },
+    {
+        "id": 7,
+        "name": "Product Management"
+    },
+    {
+        "id": 8,
+        "name": "Research and Development"
+    },
+    {
+        "id": 9,
+        "name": "Sales"
+    },
+    {
+        "id": 10,
+        "name": "Services"
+    },
+    {
+        "id": 11,
+        "name": "Support"
+    },
+    {
+        "id": 12,
+        "name": "Training"
+    }
+]

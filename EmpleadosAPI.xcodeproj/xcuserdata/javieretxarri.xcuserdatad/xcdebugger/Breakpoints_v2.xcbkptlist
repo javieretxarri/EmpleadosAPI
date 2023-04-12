@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "845F6ABF-C622-4A54-9ED3-C79518FD449E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1226FD86-35AF-4D65-8502-94527648E976"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EmpleadosAPI/EmpleadoCombineVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "EmpleadoCVM"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "1226FD86-35AF-4D65-8502-94527648E976 - 585faefee58d5ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of EmpleadosAPI.EmpleadoCVM.generos : Swift.Array&lt;EmpleadosAPI.MaestroGenero&gt;"
+                  moduleName = "EmpleadosAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/javieretxarri/Developer/EmpleadosAPI/EmpleadosAPI/EmpleadoCombineVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "1226FD86-35AF-4D65-8502-94527648E976 - 1642ed308dd26d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EmpleadosAPI.EmpleadoCVM.generos.getter : Swift.Array&lt;EmpleadosAPI.MaestroGenero&gt;"
+                  moduleName = "EmpleadosAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/javieretxarri/Developer/EmpleadosAPI/EmpleadosAPI/EmpleadoCombineVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "1226FD86-35AF-4D65-8502-94527648E976 - 2bd1be7ef997d2cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EmpleadosAPI.EmpleadoCVM.generos.setter : Swift.Array&lt;EmpleadosAPI.MaestroGenero&gt;"
+                  moduleName = "EmpleadosAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/javieretxarri/Developer/EmpleadosAPI/EmpleadosAPI/EmpleadoCombineVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "1226FD86-35AF-4D65-8502-94527648E976 - 659a94547112a1df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EmpleadosAPI.EmpleadoCVM.generos.modify : Swift.Array&lt;EmpleadosAPI.MaestroGenero&gt;"
+                  moduleName = "EmpleadosAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/javieretxarri/Developer/EmpleadosAPI/EmpleadosAPI/EmpleadoCombineVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "1226FD86-35AF-4D65-8502-94527648E976 - ff195d95bfac7300"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EmpleadosAPI.EmpleadoCVM.generos.modify : Swift.Array&lt;EmpleadosAPI.MaestroGenero&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "EmpleadosAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/javieretxarri/Developer/EmpleadosAPI/EmpleadosAPI/EmpleadoCombineVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "1226FD86-35AF-4D65-8502-94527648E976 - e94cc2c70d39cb78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EmpleadosAPI.EmpleadoCVM.$generos.getter : Combine.Published&lt;Swift.Array&lt;EmpleadosAPI.MaestroGenero&gt;&gt;.Publisher"
+                  moduleName = "EmpleadosAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/javieretxarri/Developer/EmpleadosAPI/EmpleadosAPI/EmpleadoCombineVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "1226FD86-35AF-4D65-8502-94527648E976 - e94cc2c70d39cb78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EmpleadosAPI.EmpleadoCVM.$generos.setter : Combine.Published&lt;Swift.Array&lt;EmpleadosAPI.MaestroGenero&gt;&gt;.Publisher"
+                  moduleName = "EmpleadosAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/javieretxarri/Developer/EmpleadosAPI/EmpleadosAPI/EmpleadoCombineVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "1226FD86-35AF-4D65-8502-94527648E976 - 6dbe163c9de6e605"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EmpleadosAPI.EmpleadoCVM.$generos.modify : Combine.Published&lt;Swift.Array&lt;EmpleadosAPI.MaestroGenero&gt;&gt;.Publisher"
+                  moduleName = "EmpleadosAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/javieretxarri/Developer/EmpleadosAPI/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "1226FD86-35AF-4D65-8502-94527648E976 - face76837a35e433"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EmpleadosAPI.EmpleadoCVM.$generos.modify : Combine.Published&lt;Swift.Array&lt;EmpleadosAPI.MaestroGenero&gt;&gt;.Publisher with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "EmpleadosAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/javieretxarri/Developer/EmpleadosAPI/EmpleadosAPI/EmpleadoCombineVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "1226FD86-35AF-4D65-8502-94527648E976 - 3b47619c1ce6a24a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EmpleadosAPI.EmpleadoCVM.init() -&gt; EmpleadosAPI.EmpleadoCVM"
+                  moduleName = "EmpleadosAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/javieretxarri/Developer/EmpleadosAPI/EmpleadosAPI/EmpleadoCombineVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "416">
+               </Location>
+               <Location
+                  uuid = "1226FD86-35AF-4D65-8502-94527648E976 - e94cc2c70d39cb78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EmpleadosAPI.EmpleadoCVM.$generos.setter : Combine.Published&lt;Swift.Array&lt;EmpleadosAPI.MaestroGenero&gt;&gt;.Publisher"
+                  moduleName = "EmpleadosAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/javieretxarri/Developer/EmpleadosAPI/EmpleadosAPI/EmpleadoCombineVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "1226FD86-35AF-4D65-8502-94527648E976 - 3b47619c1ce6a24a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EmpleadosAPI.EmpleadoCVM.init() -&gt; EmpleadosAPI.EmpleadoCVM"
+                  moduleName = "EmpleadosAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/javieretxarri/Developer/EmpleadosAPI/EmpleadosAPI/EmpleadoCombineVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "476">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

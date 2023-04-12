@@ -1,0 +1,142 @@
+[
+    {
+        "lastName": "Bermúnez",
+        "username": "jberkk",
+        "avatar": "https://robohash.org/nisiestsed.png",
+        "address": "47518 North Hill",
+        "zipcode": "",
+        "id": 21,
+        "department":
+        {
+            "id": 6,
+            "name": "Marketing"
+        },
+        "firstName": "Jerónimo",
+        "gender":
+        {
+            "gender": "Male",
+            "id": 1
+        },
+        "email": "jberkk@epa.gov"
+    },
+    {
+        "lastName": "Cavet",
+        "username": "jcavete",
+        "avatar": "https://robohash.org/similiqueestconsectetur.png",
+        "address": "65960 Milwaukee Street",
+        "zipcode": "8160",
+        "id": 15,
+        "department":
+        {
+            "name": "Services",
+            "id": 10
+        },
+        "firstName": "Jessy",
+        "gender":
+        {
+            "gender": "Female",
+            "id": 2
+        },
+        "email": "jcavete@slashdot.org"
+    },
+    {
+        "firstName": "Cathi",
+        "username": "chinkleyf",
+        "lastName": "Hinkley",
+        "avatar": "https://robohash.org/porronumquamcupiditate.png",
+        "gender":
+        {
+            "gender": "Female",
+            "id": 2
+        },
+        "zipcode": "",
+        "id": 16,
+        "department":
+        {
+            "name": "Marketing",
+            "id": 6
+        },
+        "email": "chinkleyf@bizjournals.com",
+        "address": "92669 Oak Alley"
+    },
+    {
+        "lastName": "Ballintyne",
+        "username": "jballintyneh",
+        "avatar": "https://robohash.org/aperiamsinteum.png",
+        "address": "993 8th Park",
+        "zipcode": "4980-559",
+        "id": 18,
+        "department":
+        {
+            "name": "Services",
+            "id": 10
+        },
+        "firstName": "Justus",
+        "gender":
+        {
+            "gender": "Male",
+            "id": 1
+        },
+        "email": "jballintyneh@hubpages.com"
+    },
+    {
+        "gender":
+        {
+            "gender": "Female",
+            "id": 2
+        },
+        "firstName": "Emeline",
+        "username": "efilshini",
+        "id": 19,
+        "department":
+        {
+            "id": 8,
+            "name": "Research and Development"
+        },
+        "email": "efilshini@163.com",
+        "lastName": "Filshin",
+        "avatar": "https://robohash.org/optionobisreprehenderit.png",
+        "zipcode": "05-831",
+        "address": "9910 Loeprich Avenue"
+    },
+    {
+        "firstName": "Nollie",
+        "username": "ndohertyj",
+        "lastName": "Doherty",
+        "avatar": "https://robohash.org/enimsolutaperferendis.png",
+        "gender":
+        {
+            "id": 2,
+            "gender": "Female"
+        },
+        "zipcode": "7745",
+        "id": 20,
+        "department":
+        {
+            "id": 5,
+            "name": "Legal"
+        },
+        "email": "ndohertyj@mysql.com",
+        "address": "17 Old Gate Lane"
+    },
+    {
+        "firstName": "Northrop",
+        "username": "nsymmonsl",
+        "lastName": "Symmons",
+        "avatar": "https://robohash.org/voluptatemvoluptatemnon.png",
+        "gender":
+        {
+            "id": 1,
+            "gender": "Male"
+        },
+        "zipcode": "",
+        "id": 22,
+        "department":
+        {
+            "id": 2,
+            "name": "Business Development"
+        },
+        "email": "nsymmonsl@amazon.co.uk",
+        "address": "39 Gale Place"
+    }
+]

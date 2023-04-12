@@ -11,6 +11,24 @@
 		F930ADBB29E4866F00093607 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F930ADBA29E4866F00093607 /* ContentView.swift */; };
 		F930ADBD29E4867100093607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F930ADBC29E4867100093607 /* Assets.xcassets */; };
 		F930ADC029E4867100093607 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F930ADBF29E4867100093607 /* Preview Assets.xcassets */; };
+		F930ADCB29E4873D00093607 /* EmpleadoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F930ADCA29E4873D00093607 /* EmpleadoModel.swift */; };
+		F930ADCD29E488A000093607 /* MaestrosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F930ADCC29E488A000093607 /* MaestrosModel.swift */; };
+		F930ADCF29E488AE00093607 /* APIRestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F930ADCE29E488AE00093607 /* APIRestModel.swift */; };
+		F930ADD229E48A9B00093607 /* Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F930ADD129E48A9B00093607 /* Interface.swift */; };
+		F930ADD429E48DE900093607 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F930ADD329E48DE900093607 /* Persistence.swift */; };
+		F930ADD629E48E5100093607 /* PersistenceCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F930ADD529E48E5100093607 /* PersistenceCombine.swift */; };
+		F930ADD929E4926900093607 /* EmpleadoVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F930ADD829E4926900093607 /* EmpleadoVM.swift */; };
+		F930ADDB29E4929500093607 /* EmpleadoCombineVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F930ADDA29E4929500093607 /* EmpleadoCombineVM.swift */; };
+		F930ADDE29E4AA9000093607 /* empleadosTest.json in Resources */ = {isa = PBXBuildFile; fileRef = F930ADDD29E4AA9000093607 /* empleadosTest.json */; };
+		F930ADE129E4ABF100093607 /* generosTest.json in Resources */ = {isa = PBXBuildFile; fileRef = F930ADDF29E4ABF100093607 /* generosTest.json */; };
+		F930ADE229E4ABF100093607 /* departamentosTest.json in Resources */ = {isa = PBXBuildFile; fileRef = F930ADE029E4ABF100093607 /* departamentosTest.json */; };
+		F930ADE429E4AC5300093607 /* PersistenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F930ADE329E4AC5300093607 /* PersistenceTest.swift */; };
+		F93D0A1F29E6A60800949169 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93D0A1E29E6A60800949169 /* DetailView.swift */; };
+		F93D0A2129E6A61000949169 /* DetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93D0A2029E6A61000949169 /* DetailVM.swift */; };
+		F9EF88E429E5D13C00CAEB70 /* EmpleadosRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EF88E329E5D13C00CAEB70 /* EmpleadosRow.swift */; };
+		F9EF88E629E5DDEB00CAEB70 /* NetworkStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EF88E529E5DDEB00CAEB70 /* NetworkStatus.swift */; };
+		F9EF88E829E5DFA600CAEB70 /* OfflineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EF88E729E5DFA600CAEB70 /* OfflineView.swift */; };
+		F9EF88EA29E5F81F00CAEB70 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EF88E929E5F81F00CAEB70 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +37,24 @@
 		F930ADBA29E4866F00093607 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F930ADBC29E4867100093607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F930ADBF29E4867100093607 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F930ADCA29E4873D00093607 /* EmpleadoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadoModel.swift; sourceTree = "<group>"; };
+		F930ADCC29E488A000093607 /* MaestrosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaestrosModel.swift; sourceTree = "<group>"; };
+		F930ADCE29E488AE00093607 /* APIRestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRestModel.swift; sourceTree = "<group>"; };
+		F930ADD129E48A9B00093607 /* Interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interface.swift; sourceTree = "<group>"; };
+		F930ADD329E48DE900093607 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F930ADD529E48E5100093607 /* PersistenceCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceCombine.swift; sourceTree = "<group>"; };
+		F930ADD829E4926900093607 /* EmpleadoVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadoVM.swift; sourceTree = "<group>"; };
+		F930ADDA29E4929500093607 /* EmpleadoCombineVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadoCombineVM.swift; sourceTree = "<group>"; };
+		F930ADDD29E4AA9000093607 /* empleadosTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = empleadosTest.json; sourceTree = "<group>"; };
+		F930ADDF29E4ABF100093607 /* generosTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = generosTest.json; sourceTree = "<group>"; };
+		F930ADE029E4ABF100093607 /* departamentosTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = departamentosTest.json; sourceTree = "<group>"; };
+		F930ADE329E4AC5300093607 /* PersistenceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceTest.swift; sourceTree = "<group>"; };
+		F93D0A1E29E6A60800949169 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F93D0A2029E6A61000949169 /* DetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVM.swift; sourceTree = "<group>"; };
+		F9EF88E329E5D13C00CAEB70 /* EmpleadosRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadosRow.swift; sourceTree = "<group>"; };
+		F9EF88E529E5DDEB00CAEB70 /* NetworkStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStatus.swift; sourceTree = "<group>"; };
+		F9EF88E729E5DFA600CAEB70 /* OfflineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineView.swift; sourceTree = "<group>"; };
+		F9EF88E929E5F81F00CAEB70 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +88,12 @@
 			isa = PBXGroup;
 			children = (
 				F930ADB829E4866F00093607 /* EmpleadosAPIApp.swift */,
-				F930ADBA29E4866F00093607 /* ContentView.swift */,
-				F930ADBC29E4867100093607 /* Assets.xcassets */,
+				F930ADD029E489A500093607 /* Network */,
+				F930ADC929E4871F00093607 /* View */,
+				F930ADD729E4925600093607 /* ViewModels */,
+				F930ADDC29E4A35D00093607 /* Components */,
+				F930ADC829E4870D00093607 /* Model */,
+				F930ADC629E4868C00093607 /* system */,
 				F930ADBE29E4867100093607 /* Preview Content */,
 			);
 			path = EmpleadosAPI;
@@ -62,9 +102,71 @@
 		F930ADBE29E4867100093607 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				F930ADDD29E4AA9000093607 /* empleadosTest.json */,
+				F930ADE029E4ABF100093607 /* departamentosTest.json */,
+				F930ADDF29E4ABF100093607 /* generosTest.json */,
 				F930ADBF29E4867100093607 /* Preview Assets.xcassets */,
+				F930ADE329E4AC5300093607 /* PersistenceTest.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F930ADC629E4868C00093607 /* system */ = {
+			isa = PBXGroup;
+			children = (
+				F930ADBC29E4867100093607 /* Assets.xcassets */,
+			);
+			name = system;
+			sourceTree = "<group>";
+		};
+		F930ADC829E4870D00093607 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F930ADCA29E4873D00093607 /* EmpleadoModel.swift */,
+				F930ADCC29E488A000093607 /* MaestrosModel.swift */,
+				F930ADCE29E488AE00093607 /* APIRestModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F930ADC929E4871F00093607 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F930ADBA29E4866F00093607 /* ContentView.swift */,
+				F93D0A1E29E6A60800949169 /* DetailView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F930ADD029E489A500093607 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F930ADD129E48A9B00093607 /* Interface.swift */,
+				F930ADD329E48DE900093607 /* Persistence.swift */,
+				F930ADD529E48E5100093607 /* PersistenceCombine.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		F930ADD729E4925600093607 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F930ADD829E4926900093607 /* EmpleadoVM.swift */,
+				F930ADDA29E4929500093607 /* EmpleadoCombineVM.swift */,
+				F9EF88E529E5DDEB00CAEB70 /* NetworkStatus.swift */,
+				F93D0A2029E6A61000949169 /* DetailVM.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		F930ADDC29E4A35D00093607 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F9EF88E329E5D13C00CAEB70 /* EmpleadosRow.swift */,
+				F9EF88E729E5DFA600CAEB70 /* OfflineView.swift */,
+				F9EF88E929E5F81F00CAEB70 /* LoadingView.swift */,
+			);
+			name = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +227,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F930ADDE29E4AA9000093607 /* empleadosTest.json in Resources */,
 				F930ADC029E4867100093607 /* Preview Assets.xcassets in Resources */,
+				F930ADE229E4ABF100093607 /* departamentosTest.json in Resources */,
 				F930ADBD29E4867100093607 /* Assets.xcassets in Resources */,
+				F930ADE129E4ABF100093607 /* generosTest.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +242,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F930ADCB29E4873D00093607 /* EmpleadoModel.swift in Sources */,
+				F930ADE429E4AC5300093607 /* PersistenceTest.swift in Sources */,
+				F930ADCD29E488A000093607 /* MaestrosModel.swift in Sources */,
 				F930ADBB29E4866F00093607 /* ContentView.swift in Sources */,
+				F930ADD929E4926900093607 /* EmpleadoVM.swift in Sources */,
+				F93D0A2129E6A61000949169 /* DetailVM.swift in Sources */,
+				F930ADD429E48DE900093607 /* Persistence.swift in Sources */,
+				F930ADDB29E4929500093607 /* EmpleadoCombineVM.swift in Sources */,
+				F9EF88E429E5D13C00CAEB70 /* EmpleadosRow.swift in Sources */,
+				F9EF88EA29E5F81F00CAEB70 /* LoadingView.swift in Sources */,
+				F93D0A1F29E6A60800949169 /* DetailView.swift in Sources */,
+				F9EF88E629E5DDEB00CAEB70 /* NetworkStatus.swift in Sources */,
+				F930ADCF29E488AE00093607 /* APIRestModel.swift in Sources */,
+				F9EF88E829E5DFA600CAEB70 /* OfflineView.swift in Sources */,
+				F930ADD629E48E5100093607 /* PersistenceCombine.swift in Sources */,
 				F930ADB929E4866F00093607 /* EmpleadosAPIApp.swift in Sources */,
+				F930ADD229E48A9B00093607 /* Interface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
