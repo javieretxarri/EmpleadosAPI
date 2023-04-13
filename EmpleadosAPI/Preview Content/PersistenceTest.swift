@@ -19,15 +19,31 @@ final class PersistenceTest: NetworkPersistence {
         return try JSONDecoder().decode([Empleado].self, from: data)
     }
 
-    func getGeneros() async throws -> [MaestroGenero] {
+    func getGeneros() async throws -> [Gender] {
         let data = try Data(contentsOf: .generos)
-        return try JSONDecoder().decode([MaestroGenero].self, from: data)
+        let genero = try JSONDecoder().decode([MaestroGenero].self, from: data)
+        return genero.compactMap {
+            if let gender = GenderName(rawValue: $0.gender) {
+                return Gender(id: $0.id, gender: gender)
+            } else {
+                return nil
+            }
+        }
     }
 
-    func getDepartamentos() async throws -> [MaestroDepartamento] {
+    func getDepartamentos() async throws -> [Department] {
         let data = try Data(contentsOf: .departamentos)
-        return try JSONDecoder().decode([MaestroDepartamento].self, from: data)
+        let dptos = try JSONDecoder().decode([MaestroDepartamento].self, from: data)
+        return dptos.compactMap {
+            if let dpto = DepartmentName(rawValue: $0.name) {
+                return Department(id: $0.id, name: dpto)
+            } else {
+                return nil
+            }
+        }
     }
+
+    func putEmpleado(empleado: Empleado) async throws {}
 }
 
 extension EmpleadoVM {
@@ -35,14 +51,14 @@ extension EmpleadoVM {
 }
 
 extension Empleado {
-    static let test = Empleado(id: 21,
-                               username: "Bermúdez",
-                               department: Department(name: .accounting, id: 1),
-                               lastName: "Lastname",
-                               firstName: "FirstName",
-                               zipcode: "32155",
-                               gender: Gender(id: 1, gender: .male),
-                               address: "Súper address",
-                               email: "uno@gmail.com",
-                               avatar: URL(string: "https://robohash.org/voluptatemvoluptatemnon.png")!)
+    static let test = Empleado(id: 1,
+                               firstName: "Julio César",
+                               lastName: "Fernández",
+                               username: "jcfmunoz",
+                               email: "jcfmunoz@icloud.com",
+                               address: "Mi casa",
+                               zipcode: "28000",
+                               avatar: URL(string: "https://pbs.twimg.com/profile_images/1017076264644022272/tetffw3o_400x400.jpg")!,
+                               department: Department(id: 1, name: .accounting),
+                               gender: Gender(id: 1, gender: .male))
 }

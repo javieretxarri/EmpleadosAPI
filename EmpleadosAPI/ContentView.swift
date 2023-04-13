@@ -12,9 +12,17 @@ struct ContentView: View {
 
     var body: some View {
         NavigationStack {
-            List(vm.empleados) { empleado in
-                NavigationLink(value: empleado) {
-                    EmpleadosRow(empleado: empleado)
+            List {
+                ForEach(vm.empleadosDpto, id: \.self) { dpto in
+                    Section {
+                        ForEach(dpto) { empleado in
+                            NavigationLink(value: empleado) {
+                                EmpleadosRow(empleado: empleado)
+                            }
+                        }
+                    } header: {
+                        Text(dpto.first?.department.name.rawValue ?? "")
+                    }
                 }
             }
             .navigationTitle("Empleados")
@@ -22,6 +30,9 @@ struct ContentView: View {
                 DetailView(detailVM: DetailVM(empleado: empleado))
             }
             .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    RefreshButton()
+                }
                 ToolbarItem(placement: .confirmationAction) {
                     Button {
                         vm.loading = true

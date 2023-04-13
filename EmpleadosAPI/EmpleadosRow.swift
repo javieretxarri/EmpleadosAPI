@@ -18,6 +18,8 @@ struct EmpleadosRow: View {
                 Text(empleado.email)
                     .font(.footnote)
                     .foregroundStyle(.secondary)
+                Text(empleado.department.name.rawValue)
+                    .font(.caption)
             }
             Spacer()
             AsyncImage(url: empleado.avatar) { image in
@@ -46,5 +48,6 @@ struct EmpleadosRow: View {
 struct EmpleadosRow_Previews: PreviewProvider {
     static var previews: some View {
         EmpleadosRow(empleado: Empleado.test)
+            .frame(width: .infinity, height: 150)
     }
 }

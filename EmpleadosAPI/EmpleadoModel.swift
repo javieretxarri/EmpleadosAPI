@@ -11,26 +11,39 @@ import Foundation
 
 struct Empleado: Codable, Identifiable, Hashable {
     let id: Int
-    let username: String
-    let department: Department
-    let lastName: String
     let firstName: String
-    let zipcode: String
-    let gender: Gender
-    let address: String
+    let lastName: String
+    let username: String
     let email: String
+    let address: String
+    let zipcode: String
     let avatar: URL
+    let department: Department
+    let gender: Gender
 
     var fullName: String {
         "\(lastName), \(firstName)"
+    }
+
+    var update: EmpleadosUpdate {
+        EmpleadosUpdate(id: id,
+                        username: username,
+                        firstName: firstName,
+                        lastName: lastName,
+                        email: email,
+                        address: address,
+                        avatar: avatar.absoluteString,
+                        zipcode: zipcode,
+                        department: department.id,
+                        gender: gender.id)
     }
 }
 
 // MARK: - Department
 
 struct Department: Codable, Identifiable, Hashable {
-    let name: DepartmentName
     let id: Int
+    let name: DepartmentName
 }
 
 enum DepartmentName: String, Codable {

@@ -31,3 +31,16 @@ struct EmpleadosNew: Codable {
     let department: Int
     let gender: Int
 }
+
+struct Empleados4Update: Codable {
+    let id: Int
+    let firstName: String
+    let lastName: String
+    let email: String
+    let username: String
+    let address: String
+    let avatar: URL
+    let zipcode: String
+    let department: String
+    let gender: String
+}

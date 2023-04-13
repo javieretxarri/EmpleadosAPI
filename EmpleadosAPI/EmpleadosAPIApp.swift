@@ -14,23 +14,29 @@ struct EmpleadosAPIApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environmentObject(vm)
-                .overlay {
-                    if monitorNetwork.status != .online {
-                        OfflineView()
+            Group {
+                if UIDevice.current.userInterfaceIdiom == .pad {
+                    ContentViewIpad()
+                } else {
+                    ContentView()
+                }
+            }
+            .environmentObject(vm)
+            .overlay {
+                if monitorNetwork.status != .online {
+                    OfflineView()
+                        .transition(.opacity)
+                }
+            }.overlay {
+                ZStack {
+                    if vm.loading {
+                        LoadingView()
                             .transition(.opacity)
                     }
-                }.overlay {
-                    ZStack {
-                        if vm.loading {
-                            LoadingView()
-                                .transition(.opacity)
-                        }
-                    }
                 }
-                .animation(.default, value: vm.loading)
-                .animation(.default, value: monitorNetwork.status)
+            }
+            .animation(.default, value: vm.loading)
+            .animation(.default, value: monitorNetwork.status)
         }
     }
 }

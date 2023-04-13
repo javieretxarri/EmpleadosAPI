@@ -25,6 +25,9 @@
 		F930ADE429E4AC5300093607 /* PersistenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F930ADE329E4AC5300093607 /* PersistenceTest.swift */; };
 		F93D0A1F29E6A60800949169 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93D0A1E29E6A60800949169 /* DetailView.swift */; };
 		F93D0A2129E6A61000949169 /* DetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93D0A2029E6A61000949169 /* DetailVM.swift */; };
+		F93D0A2529E6C91700949169 /* Prueba.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93D0A2429E6C91700949169 /* Prueba.swift */; };
+		F93D0A2829E7EC3300949169 /* RefreshButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93D0A2729E7EC3300949169 /* RefreshButton.swift */; };
+		F93D0A2A29E7EDF200949169 /* ContentViewIpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93D0A2929E7EDF200949169 /* ContentViewIpad.swift */; };
 		F9EF88E429E5D13C00CAEB70 /* EmpleadosRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EF88E329E5D13C00CAEB70 /* EmpleadosRow.swift */; };
 		F9EF88E629E5DDEB00CAEB70 /* NetworkStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EF88E529E5DDEB00CAEB70 /* NetworkStatus.swift */; };
 		F9EF88E829E5DFA600CAEB70 /* OfflineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EF88E729E5DFA600CAEB70 /* OfflineView.swift */; };
@@ -51,6 +54,9 @@
 		F930ADE329E4AC5300093607 /* PersistenceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceTest.swift; sourceTree = "<group>"; };
 		F93D0A1E29E6A60800949169 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		F93D0A2029E6A61000949169 /* DetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVM.swift; sourceTree = "<group>"; };
+		F93D0A2429E6C91700949169 /* Prueba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prueba.swift; sourceTree = "<group>"; };
+		F93D0A2729E7EC3300949169 /* RefreshButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshButton.swift; sourceTree = "<group>"; };
+		F93D0A2929E7EDF200949169 /* ContentViewIpad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewIpad.swift; sourceTree = "<group>"; };
 		F9EF88E329E5D13C00CAEB70 /* EmpleadosRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadosRow.swift; sourceTree = "<group>"; };
 		F9EF88E529E5DDEB00CAEB70 /* NetworkStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStatus.swift; sourceTree = "<group>"; };
 		F9EF88E729E5DFA600CAEB70 /* OfflineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineView.swift; sourceTree = "<group>"; };
@@ -91,6 +97,7 @@
 				F930ADD029E489A500093607 /* Network */,
 				F930ADC929E4871F00093607 /* View */,
 				F930ADD729E4925600093607 /* ViewModels */,
+				F93D0A2629E72A4800949169 /* Extensions */,
 				F930ADDC29E4A35D00093607 /* Components */,
 				F930ADC829E4870D00093607 /* Model */,
 				F930ADC629E4868C00093607 /* system */,
@@ -133,7 +140,9 @@
 			isa = PBXGroup;
 			children = (
 				F930ADBA29E4866F00093607 /* ContentView.swift */,
+				F93D0A2929E7EDF200949169 /* ContentViewIpad.swift */,
 				F93D0A1E29E6A60800949169 /* DetailView.swift */,
+				F93D0A2429E6C91700949169 /* Prueba.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -165,8 +174,16 @@
 				F9EF88E329E5D13C00CAEB70 /* EmpleadosRow.swift */,
 				F9EF88E729E5DFA600CAEB70 /* OfflineView.swift */,
 				F9EF88E929E5F81F00CAEB70 /* LoadingView.swift */,
+				F93D0A2729E7EC3300949169 /* RefreshButton.swift */,
 			);
 			name = Components;
+			sourceTree = "<group>";
+		};
+		F93D0A2629E72A4800949169 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F93D0A2A29E7EDF200949169 /* ContentViewIpad.swift in Sources */,
+				F93D0A2529E6C91700949169 /* Prueba.swift in Sources */,
 				F930ADCB29E4873D00093607 /* EmpleadoModel.swift in Sources */,
 				F930ADE429E4AC5300093607 /* PersistenceTest.swift in Sources */,
 				F930ADCD29E488A000093607 /* MaestrosModel.swift in Sources */,
@@ -258,6 +277,7 @@
 				F9EF88E829E5DFA600CAEB70 /* OfflineView.swift in Sources */,
 				F930ADD629E48E5100093607 /* PersistenceCombine.swift in Sources */,
 				F930ADB929E4866F00093607 /* EmpleadosAPIApp.swift in Sources */,
+				F93D0A2829E7EC3300949169 /* RefreshButton.swift in Sources */,
 				F930ADD229E48A9B00093607 /* Interface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
